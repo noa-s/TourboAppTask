@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900");
+
+.city-block-container{
+  display: flex;
+  height:300px;
+  align-content: center;
+}
+
+.city-block-text{
+  flex: 2;
+  text-align: center;
+  padding: 2rem;
+  text-align: left;
+}
+
+.city-block-spacer{
+  flex: 1
+}
+
+.city-block-image{
+  flex: 5;
+  overflow: hidden;
+  height:300px;
+}
+
+.cityblock-text-span {
+  color: white;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 3rem;
+  white-space: nowrap;
+  margin: auto;
+}
+
+.cityblock-content-div{
+  color: white;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1rem;
+  white-space: nowrap;
+  margin: auto;
+  text-align: left;
+}

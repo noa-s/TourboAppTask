@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900");
+
+.city-block-container{
+  display: flex;
+  height:300px;
+  align-content: center;
+}
+
+
+.city-block-spacer{
+  flex: 1
+}
+.perP{
+  display: block;
+  font-size: 12px;
+}
+.price{
+  color: #33CC99 ;
+  font-weight: bold;
+}
+.card-img{
+  height: 100px;
+}
+.card-body{
+  opacity: 0.5;
+}
+.card-body:hover{
+  opacity: 1;
+}
+.card{
+  border: none;
+  cursor: pointer;
+}

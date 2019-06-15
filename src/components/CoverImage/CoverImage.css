@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900");
+
+/* Container holding the image and the text */
+.cover-image-container {
+  position: relative;
+  text-align: center;
+  color: white;
+  height: 400px;
+  overflow: hidden;
+}
+
+/* Centered text */
+.over-image-centered-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 3rem;
+  white-space: nowrap;
+  color: white;
+}
+
+p {
+  margin: 0;
+  font-size: 1.5rem;
+}
